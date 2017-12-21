@@ -14,6 +14,9 @@
 		FF6978F41FEC01490092F286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6978F21FEC01490092F286 /* LaunchScreen.storyboard */; };
 		FF6978FF1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6978FE1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift */; };
 		FF69790A1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6979091FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift */; };
+		FF6979201FEC016F0092F286 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69791D1FEC016F0092F286 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		FF6979211FEC016F0092F286 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69791E1FEC016F0092F286 /* SkyFloatingLabelTextField.swift */; };
+		FF6979221FEC016F0092F286 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF69791F1FEC016F0092F286 /* UITextField+fixCaretPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FF6979051FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyFloatingTextDemoWithAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6979091FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingTextDemoWithAutoLayoutUITests.swift; sourceTree = "<group>"; };
 		FF69790B1FEC01490092F286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF69791D1FEC016F0092F286 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		FF69791E1FEC016F0092F286 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		FF69791F1FEC016F0092F286 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		FF6978E81FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				FF6979231FEC01770092F286 /* EXTENAL FILE */,
 				FF6978E91FEC01490092F286 /* AppDelegate.swift */,
 				FF6978EB1FEC01490092F286 /* ViewController.swift */,
 				FF6978ED1FEC01490092F286 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				FF69790B1FEC01490092F286 /* Info.plist */,
 			);
 			path = SkyFloatingTextDemoWithAutoLayoutUITests;
+			sourceTree = "<group>";
+		};
+		FF6979231FEC01770092F286 /* EXTENAL FILE */ = {
+			isa = PBXGroup;
+			children = (
+				FF69791E1FEC016F0092F286 /* SkyFloatingLabelTextField.swift */,
+				FF69791D1FEC016F0092F286 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				FF69791F1FEC016F0092F286 /* UITextField+fixCaretPosition.swift */,
+			);
+			path = "EXTENAL FILE";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6979221FEC016F0092F286 /* UITextField+fixCaretPosition.swift in Sources */,
 				FF6978EC1FEC01490092F286 /* ViewController.swift in Sources */,
+				FF6979201FEC016F0092F286 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				FF6979211FEC016F0092F286 /* SkyFloatingLabelTextField.swift in Sources */,
 				FF6978EA1FEC01490092F286 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
