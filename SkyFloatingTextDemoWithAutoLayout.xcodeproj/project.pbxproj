@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6978EA1FEC01490092F286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6978E91FEC01490092F286 /* AppDelegate.swift */; };
+		FF6978EC1FEC01490092F286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6978EB1FEC01490092F286 /* ViewController.swift */; };
+		FF6978EF1FEC01490092F286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6978ED1FEC01490092F286 /* Main.storyboard */; };
+		FF6978F11FEC01490092F286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6978F01FEC01490092F286 /* Assets.xcassets */; };
+		FF6978F41FEC01490092F286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6978F21FEC01490092F286 /* LaunchScreen.storyboard */; };
+		FF6978FF1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6978FE1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift */; };
+		FF69790A1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6979091FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6978FB1FEC01490092F286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6978DE1FEC01490092F286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6978E51FEC01490092F286;
+			remoteInfo = SkyFloatingTextDemoWithAutoLayout;
+		};
+		FF6979061FEC01490092F286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6978DE1FEC01490092F286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6978E51FEC01490092F286;
+			remoteInfo = SkyFloatingTextDemoWithAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6978E61FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyFloatingTextDemoWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6978E91FEC01490092F286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF6978EB1FEC01490092F286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF6978EE1FEC01490092F286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF6978F01FEC01490092F286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF6978F31FEC01490092F286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF6978F51FEC01490092F286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6978FA1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyFloatingTextDemoWithAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6978FE1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingTextDemoWithAutoLayoutTests.swift; sourceTree = "<group>"; };
+		FF6979001FEC01490092F286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6979051FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyFloatingTextDemoWithAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6979091FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingTextDemoWithAutoLayoutUITests.swift; sourceTree = "<group>"; };
+		FF69790B1FEC01490092F286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6978E31FEC01490092F286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6978F71FEC01490092F286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6979021FEC01490092F286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6978DD1FEC01490092F286 = {
+			isa = PBXGroup;
+			children = (
+				FF6978E81FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */,
+				FF6978FD1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests */,
+				FF6979081FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests */,
+				FF6978E71FEC01490092F286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6978E71FEC01490092F286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6978E61FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout.app */,
+				FF6978FA1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.xctest */,
+				FF6979051FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6978E81FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FF6978E91FEC01490092F286 /* AppDelegate.swift */,
+				FF6978EB1FEC01490092F286 /* ViewController.swift */,
+				FF6978ED1FEC01490092F286 /* Main.storyboard */,
+				FF6978F01FEC01490092F286 /* Assets.xcassets */,
+				FF6978F21FEC01490092F286 /* LaunchScreen.storyboard */,
+				FF6978F51FEC01490092F286 /* Info.plist */,
+			);
+			path = SkyFloatingTextDemoWithAutoLayout;
+			sourceTree = "<group>";
+		};
+		FF6978FD1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6978FE1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift */,
+				FF6979001FEC01490092F286 /* Info.plist */,
+			);
+			path = SkyFloatingTextDemoWithAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		FF6979081FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6979091FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift */,
+				FF69790B1FEC01490092F286 /* Info.plist */,
+			);
+			path = SkyFloatingTextDemoWithAutoLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6978E51FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF69790E1FEC01490092F286 /* Build configuration list for PBXNativeTarget "SkyFloatingTextDemoWithAutoLayout" */;
+			buildPhases = (
+				FF6978E21FEC01490092F286 /* Sources */,
+				FF6978E31FEC01490092F286 /* Frameworks */,
+				FF6978E41FEC01490092F286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingTextDemoWithAutoLayout;
+			productName = SkyFloatingTextDemoWithAutoLayout;
+			productReference = FF6978E61FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF6978F91FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6979111FEC01490092F286 /* Build configuration list for PBXNativeTarget "SkyFloatingTextDemoWithAutoLayoutTests" */;
+			buildPhases = (
+				FF6978F61FEC01490092F286 /* Sources */,
+				FF6978F71FEC01490092F286 /* Frameworks */,
+				FF6978F81FEC01490092F286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6978FC1FEC01490092F286 /* PBXTargetDependency */,
+			);
+			name = SkyFloatingTextDemoWithAutoLayoutTests;
+			productName = SkyFloatingTextDemoWithAutoLayoutTests;
+			productReference = FF6978FA1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF6979041FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6979141FEC01490092F286 /* Build configuration list for PBXNativeTarget "SkyFloatingTextDemoWithAutoLayoutUITests" */;
+			buildPhases = (
+				FF6979011FEC01490092F286 /* Sources */,
+				FF6979021FEC01490092F286 /* Frameworks */,
+				FF6979031FEC01490092F286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6979071FEC01490092F286 /* PBXTargetDependency */,
+			);
+			name = SkyFloatingTextDemoWithAutoLayoutUITests;
+			productName = SkyFloatingTextDemoWithAutoLayoutUITests;
+			productReference = FF6979051FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6978DE1FEC01490092F286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kondya;
+				TargetAttributes = {
+					FF6978E51FEC01490092F286 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF6978F91FEC01490092F286 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF6978E51FEC01490092F286;
+					};
+					FF6979041FEC01490092F286 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF6978E51FEC01490092F286;
+					};
+				};
+			};
+			buildConfigurationList = FF6978E11FEC01490092F286 /* Build configuration list for PBXProject "SkyFloatingTextDemoWithAutoLayout" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF6978DD1FEC01490092F286;
+			productRefGroup = FF6978E71FEC01490092F286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6978E51FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */,
+				FF6978F91FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests */,
+				FF6979041FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6978E41FEC01490092F286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6978F41FEC01490092F286 /* LaunchScreen.storyboard in Resources */,
+				FF6978F11FEC01490092F286 /* Assets.xcassets in Resources */,
+				FF6978EF1FEC01490092F286 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6978F81FEC01490092F286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6979031FEC01490092F286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6978E21FEC01490092F286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6978EC1FEC01490092F286 /* ViewController.swift in Sources */,
+				FF6978EA1FEC01490092F286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6978F61FEC01490092F286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6978FF1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6979011FEC01490092F286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF69790A1FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6978FC1FEC01490092F286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6978E51FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */;
+			targetProxy = FF6978FB1FEC01490092F286 /* PBXContainerItemProxy */;
+		};
+		FF6979071FEC01490092F286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6978E51FEC01490092F286 /* SkyFloatingTextDemoWithAutoLayout */;
+			targetProxy = FF6979061FEC01490092F286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF6978ED1FEC01490092F286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6978EE1FEC01490092F286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF6978F21FEC01490092F286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6978F31FEC01490092F286 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF69790C1FEC01490092F286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF69790D1FEC01490092F286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF69790F1FEC01490092F286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyFloatingTextDemoWithAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyFloatingTextDemoWithAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF6979101FEC01490092F286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyFloatingTextDemoWithAutoLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyFloatingTextDemoWithAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF6979121FEC01490092F286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyFloatingTextDemoWithAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyFloatingTextDemoWithAutoLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyFloatingTextDemoWithAutoLayout.app/SkyFloatingTextDemoWithAutoLayout";
+			};
+			name = Debug;
+		};
+		FF6979131FEC01490092F286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyFloatingTextDemoWithAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyFloatingTextDemoWithAutoLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyFloatingTextDemoWithAutoLayout.app/SkyFloatingTextDemoWithAutoLayout";
+			};
+			name = Release;
+		};
+		FF6979151FEC01490092F286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyFloatingTextDemoWithAutoLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyFloatingTextDemoWithAutoLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyFloatingTextDemoWithAutoLayout;
+			};
+			name = Debug;
+		};
+		FF6979161FEC01490092F286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkyFloatingTextDemoWithAutoLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkyFloatingTextDemoWithAutoLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyFloatingTextDemoWithAutoLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6978E11FEC01490092F286 /* Build configuration list for PBXProject "SkyFloatingTextDemoWithAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF69790C1FEC01490092F286 /* Debug */,
+				FF69790D1FEC01490092F286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF69790E1FEC01490092F286 /* Build configuration list for PBXNativeTarget "SkyFloatingTextDemoWithAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF69790F1FEC01490092F286 /* Debug */,
+				FF6979101FEC01490092F286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6979111FEC01490092F286 /* Build configuration list for PBXNativeTarget "SkyFloatingTextDemoWithAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6979121FEC01490092F286 /* Debug */,
+				FF6979131FEC01490092F286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6979141FEC01490092F286 /* Build configuration list for PBXNativeTarget "SkyFloatingTextDemoWithAutoLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6979151FEC01490092F286 /* Debug */,
+				FF6979161FEC01490092F286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6978DE1FEC01490092F286 /* Project object */;
+}
